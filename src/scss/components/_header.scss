@@ -1,0 +1,21 @@
+nav {
+    background-color: $primary;
+    color: $white;
+    .nav-item {
+        display: flex;
+        .nav-link {
+            color: $white;
+            text-align: center;
+            margin: 0 10px;
+            width: 100px;
+            &:hover {
+                color: $white;
+            }
+        }
+        .nav-link.active {
+            background-color: $white;
+            color: $font-color;
+            border-radius: 5px;
+        }
+    }
+}

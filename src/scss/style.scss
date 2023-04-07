@@ -1,0 +1,250 @@
+    @charset 'utf-8';
+    @import "abstracts/__abstracts-dir";
+    @import "layouts/__layouts-dir";
+    @import "components/_components-dir";
+    html,
+    body {
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+    
+    .eventHeadline {
+        font-size: 24px;
+        font-family: montserrat-semibold;
+    }
+    
+    .viewAll {
+        padding: 5px;
+        float: right;
+        font-size: 16px;
+        color: #fe7700;
+        cursor: pointer;
+    }
+    
+    .viewAll:hover {
+        padding: 5px;
+        color: #fff;
+        background-color: #fe7700;
+        border-radius: 10px;
+    }
+    
+    .headingUnderline1 {
+        display: block;
+        width: 39px;
+        /*or whatever width you want the effect of <hr>*/
+        border-top: 4px solid #fe7700;
+    }
+    
+    .headingUnderline2 {
+        display: block;
+        width: 17px;
+        margin: -4px 0 0 45px;
+        border-top: 4px solid #fe7700;
+    }
+    
+    .eventSecBody {
+        justify-content: space-around;
+        .eventCardBody {
+            width: 220px;
+            height: 173px;
+            margin-top: 10px;
+            .eventCard {
+                color: #fff;
+                background-color: #502274;
+                border-radius: 14px;
+                &>h5 {
+                    font-size: 24px;
+                }
+                &>p {
+                    font-size: 10px;
+                    z-index: 1;
+                }
+                .dot {
+                    height: 35px;
+                    width: 35px;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    display: inline-block;
+                    cursor: pointer;
+                    &>i {
+                        color: orange;
+                        position: relative;
+                        left: 11px;
+                        top: 5px;
+                    }
+                }
+            }
+            .eventImg {
+                position: absolute;
+                right: 13px;
+                bottom: 7px;
+            }
+        }
+    }
+    
+    .cardBody {
+        margin: -15px 0 10px 0;
+        display: flex;
+    }
+    
+    .eventDT {
+        color: #fe7700;
+        font-size: 12px;
+        font-family: montserrat-semibold;
+    }
+    
+    .eventName {
+        font-size: 16px;
+        font-family: montserrat-semibold;
+    }
+    
+    .likeBtn {
+        width: 40px;
+        position: relative;
+        bottom: 16px;
+        float: right;
+        right: 8px;
+        cursor: pointer;
+    }
+    
+    .shareItems {
+        height: 134px;
+        opacity: 0.9;
+        position: absolute;
+        width: 50px;
+        right: 16px;
+        margin: -125px -11px 0px 0;
+        background-image: linear-gradient( to left bottom, #fe7700, #f24041, #cd1161, #951474, #502274);
+        display: none;
+        border-radius: 16px;
+    }
+    
+    .shareImg {
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .shareItems>div {
+        padding: 10px 0 0 9px;
+    }
+    
+    .shareItems>div>img {
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .eventInfo {
+        width: 80%;
+    }
+    
+    .foImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+    
+    .item {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+    }
+    
+    .item-card {
+        transition: 0.5s;
+        height: 341px;
+    }
+    
+    .item-card-title {
+        font-size: 15px;
+        transition: 1s;
+    }
+    
+    .addDotExtrString {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .item-card-title i {
+        font-size: 15px;
+        transition: 1s;
+        cursor: pointer;
+        color: gray;
+        padding: 10px 10px 0 0;
+    }
+    /* .card-title i:hover{
+        transform: scale(1.25) rotate(100deg); 
+        color:#18d4ca;
+        
+      } */
+    /* .card:hover{
+        transform: scale(1.05);
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+      } */
+    
+    .card-text {
+        height: 80px;
+    }
+    
+    .card::before,
+    .card::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: scale3d(0, 0, 1);
+        transition: transform 0.3s ease-out 0s;
+        background: rgba(255, 255, 255, 0.1);
+        content: "";
+        pointer-events: none;
+    }
+    
+    .card::before {
+        transform-origin: left top;
+    }
+    
+    .card::after {
+        transform-origin: right bottom;
+    }
+    /* .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+        transform: scale3d(1, 1, 1);
+      } */
+    
+    .foInnerCard {
+        height: 200px;
+        padding: 10px;
+    }
+    
+    .cardSecBody {
+        margin-top: 15px;
+    }
+    
+    .foHeading {
+        font-family: montserrat-semibold;
+        font-size: 16px;
+    }
+    
+    .foBtn {
+        width: 100px;
+        display: block;
+        margin: 75px auto 0px auto;
+        border: none;
+        background-color: #fff;
+        color: #fe7700;
+        font-weight: bold;
+        padding: 5px;
+    }
+    
+    .foBtn:hover {
+        border: none;
+        background-color: #fe7700;
+        color: #fff;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 10px;
+    }

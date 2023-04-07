@@ -1,0 +1,109 @@
+{
+    "event_category": [{
+            "id": 1,
+            "event_name": "Music",
+            "event_desc": "24 Events Nearby",
+            "category_img": "card11.png"
+        },
+        {
+            "id": 2,
+            "event_name": "Business & Stratups",
+            "event_desc": "36 Events Nearby",
+            "category_img": "card12.png"
+        },
+        {
+            "id": 3,
+            "event_name": "Arts & Culture",
+            "event_desc": "28 Events Nearby",
+            "category_img": "card13.png"
+        },
+        {
+            "id": 4,
+            "event_name": "Film & Media",
+            "event_desc": "10 Events Nearby",
+            "category_img": "card14.png"
+        },
+        {
+            "id": 5,
+            "event_name": "Food & Drink",
+            "event_desc": "30 Events Nearby",
+            "category_img": "card15.png"
+        }
+    ],
+    "popular_event": [{
+            "id": 1,
+            "event_img": "pe1.png",
+            "event_name": "Great Qatar Food Festival",
+            "event_desc": "24 Events Nearby",
+            "city": "Mosman Park",
+            "time": "SUN, NOV 15 11:00 AM"
+        },
+        {
+            "id": 2,
+            "event_img": "pe1.png",
+            "event_name": "Great Qatar Food Festival",
+            "event_desc": "24 Events Nearby",
+            "city": "Mosman Park",
+            "time": "SUN, NOV 15 11:00 AM"
+        },
+        {
+            "id": 3,
+            "event_img": "pe1.png",
+            "event_name": "Great Qatar Food Festival",
+            "event_desc": "24 Events Nearby",
+            "city": "Mosman Park",
+            "time": "SUN, NOV 15 11:00 AM"
+        },
+        {
+            "id": 4,
+            "event_img": "pe1.png",
+            "event_name": "Great Qatar Food Festival",
+            "event_desc": "24 Events Nearby",
+            "city": "Mosman Park",
+            "time": "SUN, NOV 15 11:00 AM"
+        },
+        {
+            "id": 5,
+            "event_img": "pe1.png",
+            "event_name": "Great Qatar Food Festival",
+            "event_desc": "24 Events Nearby",
+            "city": "Mosman Park",
+            "time": "SUN, NOV 15 11:00 AM"
+        },
+        {
+            "id": 6,
+            "event_img": "pe1.png",
+            "event_name": "Great Qatar Food Festival",
+            "event_desc": "24 Events Nearby",
+            "city": "Mosman Park",
+            "time": "SUN, NOV 15 11:00 AM"
+        }
+    ],
+    "featured_organizers": [{
+            "id": 1,
+            "organizers_img": "fo1.png",
+            "organizers_name": "Oatar green leaders",
+            "follow": "24"
+        },
+        {
+            "id": 2,
+            "organizers_img": "fo1.png",
+            "organizers_name": "MOC Doha 2021 managing MOC Doha 2021 managing",
+            "follow": "24"
+        },
+        {
+            "id": 3,
+            "organizers_img": "fo1.png",
+            "organizers_name": "Waxdale certified Launcher Program",
+            "follow": "24"
+        },
+        {
+            "id": 4,
+            "organizers_img": "fo1.png",
+            "organizers_name": "CH2 Agency Bangalore",
+            "follow": "24"
+        }
+
+    ]
+
+}
